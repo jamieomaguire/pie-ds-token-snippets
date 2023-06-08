@@ -1,0 +1,26 @@
+{
+  "name": "pie-tokens",
+  "displayName": "pie-tokens",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "css",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "dependencies": {
+    "@justeat/pie-design-tokens": "^5.1.0"
+  },
+  "scripts": {
+    "buildSnippets": "node ./scripts/buildSnippets.ts"
+  }
+}
